@@ -295,7 +295,7 @@ except IOError as e:
     print(f"Lỗi ghi/đọc file: {e}")
 ```
 
-## Liên Hệ & Hỗ Trợ
+## Hỗ Trợ
 
 Nếu gặp lỗi, vui lòng kiểm tra:
 1. Python version >= 3.6
