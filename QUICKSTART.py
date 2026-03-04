@@ -182,43 +182,7 @@ for chunk_size in [5, 10, 20, 50]:
     elapsed = time.time() - start
     
     print(f"Chunk {chunk_size}: {elapsed:.3f}s")
-
-
-# 8. XÁNH HỎI THƯỜNG GẶP
-# ===================================================================
-
-# Q: Có thể sắp xếp file lớn bao nhiêu?
-# A: Lý thuyết không giới hạn, thực tế phụ thuộc dung lượng ổ đĩa
-
-# Q: Làm sao để xóa tệp tạm?
-# A: Tự động xóa, hoặc gọi sorter.cleanup_temp_files()
-
-# Q: Có thể sắp xếp theo chiều giảm dần?
-# A: Có, sửa hàm _merge_two_files() trong external_merge_sort.py
-
-# Q: Tại sao không dùng sort() bình thường?
-# A: Vì file quá lớn, không lưu trữ hết trong RAM
-
-
-# 9. LỜI KHUYÊN SỬ DỤNG
-# ===================================================================
-
-# 1. Luôn kiểm tra file tInput trước khi sắp xếp
-#    - Có phải định dạng nhị phân đúng?
-#    - Kích thước file = (số phần tử) * 8 bytes?
-
-# 2. Đảm bảo đủ không gian đĩa
-#    - Cần khoảng 2x kích thước file cho các tệp tạm
-
-# 3. Monitor thực thi
-#    - Xem log chi tiết để hiểu quá trình
-
-# 4. Kiểm tra kết quả
-#    - Kiểm tra xem dữ liệu đã sắp xếp đúng không
-
-# 5. Làm sạch tệp tạm
-#    - Xóa các tệp temp_*.bin, merged_*.bin sau khi xong
-
+    
 print("""
 ╔════════════════════════════════════════════════════════════════════╗
 ║                   EXTERNAL MERGE SORT - READY                      ║
