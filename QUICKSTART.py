@@ -139,7 +139,7 @@ sorter_large = ExternalMergeSort("data.bin", "out2.bin", chunk_size=100)
 #   [1, 3, 7, 9] + [4, 8] → Merge → [1, 3, 4, 7, 8, 9]
 
 
-# 6. CẤU TRÚC TỆPNHỊ PHÂN
+# 6. CẤU TRÚC TỆP NHỊ PHÂN
 # ===================================================================
 
 # Mỗi số thực được lưu dưới dạng 8 bytes (double precision)
