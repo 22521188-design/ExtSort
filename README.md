@@ -1,6 +1,6 @@
 # External Merge Sort - Ứng Dụng Python
 
-## Mô Tả Dự Án
+## Mô Tả 
 
 Ứng dụng này minh họa **External Merge Sort** - một thuật toán sắp xếp được sử dụng khi dữ liệu quá lớn để lưu trữ trong bộ nhớ. Ứng dụng cho phép người dùng:
 
@@ -9,7 +9,7 @@
 - ✓ Quan sát chi tiết quá trình sắp xếp
 - ✓ Tạo tệp dữ liệu test tự động
 
-## Cấu Trúc Dự Án
+## Cấu Trúc 
 
 ```
 .
@@ -295,34 +295,6 @@ except IOError as e:
     print(f"Lỗi ghi/đọc file: {e}")
 ```
 
-## Câu Hỏi Thường Gặp
-
-**Q: Ứng dụng này có thể xử lý tệp bao lớn?**
-A: Lý thuyết là không giới hạn, nhưng thực tế phụ thuộc vào dung lượng ổ đĩa.
-
-**Q: Có thể sắp xếp theo thứ tự giảm dần không?**
-A: Có, sửa hàm so sánh trong `_merge_two_files()` (đổi `<=` thành `>=`)
-
-**Q: Có thể sắp xếp theo cột cụ thể không?**
-A: Tệp hiện tại chỉ hỗ trợ số thực. Có thể mở rộng để hỗ trợ struct phức tạp.
-
-**Q: Tại sao cần xóa tệp tạm?**
-A: Để tiết kiệm không gian đĩa. Ứng dụng tự động xóa khi kết thúc.
-
-## Phát Triển Tiếp Theo
-
-Các tính năng có thể thêm:
-- [ ] Sắp xếp song song (multi-threading)
-- [ ] Hỗ trợ các kiểu dữ liệu khác (int, float, struct)
-- [ ] Thanh tiến trình chi tiết
-- [ ] So sánh hiệu năng với các thuật toán khác
-- [ ] Export thống kê sang CSV
-
-## Tác Giả & Giấy Phép
-
-Ứng dụng học tập minh họa External Merge Sort.
-Sử dụng tự do cho mục đích giáo dục.
-
 ## Liên Hệ & Hỗ Trợ
 
 Nếu gặp lỗi, vui lòng kiểm tra:
@@ -330,8 +302,3 @@ Nếu gặp lỗi, vui lòng kiểm tra:
 2. Tệp input hợp lệ (8 bytes/số)
 3. Dung lượng ổ đĩa đủ
 4. Quyền ghi vào thư mục hiện tại
-
----
-
-**Phiên Bản**: 1.0  
-**Cập Nhật Lần Cuối**: 2026-03-04
