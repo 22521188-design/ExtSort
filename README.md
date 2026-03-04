@@ -22,11 +22,7 @@
 └── README.md                  # Tài liệu này
 ```
 
-## External Merge Sort - Giải Thích Thuật Toán
-
-### Tại sao cần External Merge Sort?
-
-Khi dữ liệu quá lớn (lớn hơn RAM có sẵn), các thuật toán sắp xếp thông thường (QuickSort, MergeSort) không hoạt động hiệu quả. External Merge Sort giải quyết vấn đề này bằng cách chia dữ liệu thành các chunk nhỏ và xử lý từng chunk trong bộ nhớ.
+## External Merge Sort 
 
 ### Các Giai Đoạn
 
